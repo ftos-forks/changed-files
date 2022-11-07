@@ -174,7 +174,7 @@ runs:
         INPUT_PATH: ${{ inputs.path }}
         INPUT_FETCH_DEPTH: ${{ inputs.fetch_depth }}
     - name: Glob match
-      uses: ftos-forkss/glob@v15
+      uses: ftos-forks/glob@v15
       id: glob
       with:
         files: ${{ inputs.files }}
